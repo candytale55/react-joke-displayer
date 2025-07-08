@@ -1,11 +1,13 @@
-export default function Joke({setup, punchline}) {
-    
+export default function Joke({setup, punchline, upVotes, isPun,comments}) {
+ 
     return (
 
-        <article>
+        <article className="joke">
             {setup && <p className="setup">{setup}</p>}
             <hr />
             <p className="punchline">{punchline}</p>
+            <p className="upVotes">{upVotes + 1}</p>
+            {isPun && <p className="pun">Pun!!!!</p>}
         </article>
     )
 }

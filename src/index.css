@@ -1,14 +1,24 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-  margin: 0;
+  margin: 5%;
   font-family: 'Inter', sans-serif;
   background-color: whitesmoke;
 }
 
-.setup{
-  font-weight: 700;
+.joke {
+  margin: 1rem 0;
 }
 
+.setup{
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.pun{
+  color:blueviolet;
+  font-weight: 700;
+}
